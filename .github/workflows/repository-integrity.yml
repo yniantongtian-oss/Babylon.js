@@ -40,4 +40,4 @@ jobs:
         shell: bash
         run: |
           npm ci --registry=https://registry.npmjs.org
-          npm test
+          npm run test:unit
